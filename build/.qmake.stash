@@ -1,0 +1,22 @@
+QMAKE_CXX.INCDIRS = \
+    /opt/agl-sdk/7.0.2-armv7vethf-neon-vfpv4/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi/usr/include/c++/7.3.0 \
+    /opt/agl-sdk/7.0.2-armv7vethf-neon-vfpv4/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi/usr/include/c++/7.3.0/arm-agl-linux-gnueabi \
+    /opt/agl-sdk/7.0.2-armv7vethf-neon-vfpv4/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi/usr/include/c++/7.3.0/backward \
+    /opt/agl-sdk/7.0.2-armv7vethf-neon-vfpv4/sysroots/x86_64-aglsdk-linux/usr/lib/arm-agl-linux-gnueabi/gcc/arm-agl-linux-gnueabi/7.3.0/include \
+    /opt/agl-sdk/7.0.2-armv7vethf-neon-vfpv4/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi/usr/lib/gcc/arm-agl-linux-gnueabi/7.3.0/include \
+    /opt/agl-sdk/7.0.2-armv7vethf-neon-vfpv4/sysroots/x86_64-aglsdk-linux/usr/lib/arm-agl-linux-gnueabi/gcc/arm-agl-linux-gnueabi/7.3.0/include-fixed \
+    /opt/agl-sdk/7.0.2-armv7vethf-neon-vfpv4/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi/usr/include
+QMAKE_CXX.LIBDIRS = \
+    /opt/agl-sdk/7.0.2-armv7vethf-neon-vfpv4/sysroots/x86_64-aglsdk-linux/usr/lib/arm-agl-linux-gnueabi/gcc/arm-agl-linux-gnueabi/7.3.0 \
+    /opt/agl-sdk/7.0.2-armv7vethf-neon-vfpv4/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi/lib \
+    /opt/agl-sdk/7.0.2-armv7vethf-neon-vfpv4/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi/usr/lib/arm-agl-linux-gnueabi/7.3.0 \
+    /opt/agl-sdk/7.0.2-armv7vethf-neon-vfpv4/sysroots/armv7vehf-neon-vfpv4-agl-linux-gnueabi/usr/lib
+QMAKE_CXX.QT_COMPILER_STDCXX = 201402L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 7
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 3
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 0
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
